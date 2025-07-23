@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+/* font family
+
+font-family: "Noto Serif", serif;
+
+*/
+/* navbar section */
+.container{
+    margin: 0 auto;
+    width: 1140px;
+}
+body{
+    background-color: #F5F8FF;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 71px;
+    align-items: center;
+    margin-top: 30px;
+}
+.navbar .logo img{
+    width: 135px;
+    height: 82px;
+}
+.menu{
+    display: flex;
+    gap: 48px;
+    align-items: center;
+
+}
+.menu ul{
+    display: flex;
+    gap: 48px;
+}
+.menu ul li a{
+    font-size: 20px;
+    color: #8987A1;
+} 
+.menu ul .active a{
+    font-weight: 600;
+    color: #252432;
+}
+.cart{
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+     color: #000000;
+     align-items: center;
+}
+.cart img{
+    width: 24px;
+    height: 24px;
+}
