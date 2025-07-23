@@ -121,6 +121,14 @@ body {
   
 }
 
-/* .products{
-  grid-template-columns: repeat(4,2fr);
-} */
+/* Plant lover part */
+.plantloverbox .right h1{
+font-family: "Noto Serif", serif;
+}
+.plantloverbox .right ul{
+  list-style: inside;
+}
+.plantloverbox .right ul li{
+  color: #8987a1;
+   font-family: "Inter", sans-serif;
+}
