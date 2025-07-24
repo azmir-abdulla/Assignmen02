@@ -1,0 +1,87 @@
+/* This file made for identify main css and responsive css file */
+@media screen and (max-width: 576px) {
+  .menu ul {
+    display: none;
+  }
+  .container {
+    width: 100%;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .banner-main {
+    flex-direction: column;
+  }
+  .banner-main .left {
+    order: 2;
+    width: 100%;
+  }
+  .banner-main .left h1 {
+    font-size: 24px;
+    width: 194px;
+    margin-bottom: 14px;
+    margin-top: 20px;
+  }
+  .banner-main .left p {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .banner-main .right {
+    order: 1;
+    width: 100%;
+  }
+  .product .title h3 {
+    font-size: 24px;
+  }
+  .product .title p {
+    width: 350px;
+    font-size: 14px;
+  }
+  .grid-cols-4 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .badge {
+    display: none;
+  }
+  .plantloverbox {
+    flex-direction: column;
+  }
+  .plantloverbox .left {
+    width: 100%;
+    height: 100%;
+  }
+  .plantloverbox .left img {
+    width: 100%;
+  }
+  .plantloverbox .right {
+    width: 100%;
+    height: 100%;
+  }
+  .plantloverbox .right h1 {
+    font-size: 24px;
+  }
+  .plantloverbox .right ul li {
+    font-size: 14px;
+  }
+  .deal .main .title h3 {
+    font-size: 22px;
+  }
+  .deal .main .title p {
+    font-size: 14px;
+    width: 335px;
+  }
+  .deals {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-areas:
+      " item-1 item-1 "
+      " item-3 item-3 "
+      " item-2 item-2 ";
+  }
+  .item-info .price, .item-2 .item-info .price{
+    font-size: 20px;
+  }
+  .item-info a{
+    font-size: 16px;
+  }
+}

@@ -204,7 +204,7 @@ body {
 .item-info a {
   font-family: "Inter", sans-serif;
   text-decoration: underline;
-  font-family: 600;
+  font-weight: 600;
   font-size: 18px;
 }
 
