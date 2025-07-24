@@ -132,6 +132,9 @@ body {
 }
 
 /* deals part */
+.deal{
+  margin-bottom: 120px;
+}
 .deal .main .title h3 {
   font-size: 50px;
   font-family: "Noto Serif", serif;
@@ -210,4 +213,41 @@ body {
 }
 .item-2 .item-info a {
   font-size: 28px;
+}
+
+/* subscribe part */
+.subscribe{
+  background-image: url(./assets/news-letter-bg.png);
+  background-size: cover;
+  background-position: center center;
+  
+}
+
+.subscribe .main .title h1{
+  font-size: 50px;
+  font-weight: bold;
+   font-family: "Noto Serif", serif;
+   color: white;
+}
+.subscribe .main .form {
+
+}
+.subscribe .main .form input{
+  padding: 8px 20px;
+  background-color: white;
+   font-family: "Inter", sans-serif;
+   outline: none;
+   font-size: 16px;
+}
+.subscribe .main .form .email{
+  width: 644px;
+}
+.subscribe .main .form .btn{
+  width: 186px;
+  background-color: #e95a08;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+   font-family: "Inter", sans-serif;
+   cursor: pointer;
 }
