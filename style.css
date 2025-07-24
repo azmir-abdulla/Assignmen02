@@ -112,6 +112,7 @@ body {
   background-color: #e95a08;
   color: #f5f8ff;
   width: 100%;
+  cursor: pointer;
 }
 .products .items .btn a {
   font-weight: 600;
@@ -237,6 +238,7 @@ body {
 }
 .subscribe .main .form .email {
   width: 644px;
+  height: 50px;
 }
 .subscribe .main .form .btn {
   width: 186px;
@@ -246,6 +248,7 @@ body {
   font-weight: 600;
   font-family: "Inter", sans-serif;
   cursor: pointer;
+  height: 50px;
 }
 
 /* footer part */
