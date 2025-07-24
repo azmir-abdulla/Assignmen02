@@ -1,12 +1,16 @@
 /* This file made for identify main css and responsive css file */
-@media screen and (max-width: 576px) {
-  .menu ul {
+/* Extra Small Mobile  Devices */
+
+@media screen and (min-width:320px) and (max-width:480px){
+     .menu ul {
     display: none;
   }
   .container {
-    width: 100%;
-    margin-left: 16px;
-    margin-right: 16px;
+          width: 100%;
+        padding-right: 16px;
+        padding-left: 16px;
+        margin-right: auto;
+        margin-left: auto;
   }
   .banner-main {
     flex-direction: column;
@@ -71,12 +75,13 @@
   }
   .deals {
     display: grid;
-    grid-template-columns: 200px 200px;
+    grid-template-columns: 180px 180px;
     grid-template-rows: 200px 200px 200px;
     grid-template-areas:
       " item-1 item-1 "
       " item-3 item-3 "
       " item-2 item-2 ";
+      justify-content: center;
   }
   .item-info .price, .item-2 .item-info .price{
     font-size: 20px;
@@ -84,4 +89,165 @@
   .item-info a{
     font-size: 16px;
   }
+  .subscribe .main .title h1{
+    font-size: 20px;
+  }
+   .subscribe .main{
+    width: 100%;
+   }
+  .subscribe .main .form .email{
+    width: 218px;
+  }
+  .subscribe .main .form .btn{
+    width: 103px;
+  }
+  footer .main{
+    flex-direction: column;
+  }
+  footer .main .middle{
+    flex-direction: column;
+    gap:30px
+  }
+  .products .items{
+    width: 100%;
+  }
+  footer .main .left p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+footer .main .right .social{
+    justify-content: left;
+    margin-top: 20px;
+}
+footer{
+    overflow: hidden;
+}
+}
+
+
+
+
+
+
+
+
+/* Small Mobile */
+@media screen and (min-width:480px) and (max-width: 576px) {
+  .menu ul {
+    display: none;
+  }
+  .container {
+           width: 100%;
+        padding-right: 16px;
+        padding-left: 16px;
+        margin-right: auto;
+        margin-left: auto;
+  }
+  .banner-main {
+    flex-direction: column;
+  }
+  .banner-main .left {
+    order: 2;
+    width: 100%;
+  }
+  .banner-main .left h1 {
+    font-size: 24px;
+    width: 194px;
+    margin-bottom: 14px;
+    margin-top: 20px;
+  }
+  .banner-main .left p {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .banner-main .right {
+    order: 1;
+    width: 100%;
+  }
+  .product .title h3 {
+    font-size: 24px;
+  }
+  .product .title p {
+    width: 350px;
+    font-size: 14px;
+  }
+  .grid-cols-4 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .badge {
+    display: none;
+  }
+  .plantloverbox {
+    flex-direction: column;
+  }
+  .plantloverbox .left {
+    width: 100%;
+    height: 100%;
+  }
+  .plantloverbox .left img {
+    width: 100%;
+  }
+  .plantloverbox .right {
+    width: 100%;
+    height: 100%;
+  }
+  .plantloverbox .right h1 {
+    font-size: 24px;
+  }
+  .plantloverbox .right ul li {
+    font-size: 14px;
+  }
+  .deal .main .title h3 {
+    font-size: 22px;
+  }
+  .deal .main .title p {
+    font-size: 14px;
+    width: 335px;
+  }
+  .deals {
+    display: grid;
+    grid-template-columns: 230px 230px;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-areas:
+      " item-1 item-1 "
+      " item-3 item-3 "
+      " item-2 item-2 ";
+      justify-content: center;
+  }
+  .item-info .price, .item-2 .item-info .price{
+    font-size: 20px;
+  }
+  .item-info a{
+    font-size: 16px;
+  }
+  .subscribe .main .title h1{
+    font-size: 20px;
+  }
+   .subscribe .main{
+    width: 100%;
+   }
+  .subscribe .main .form .email{
+    width: 218px;
+  }
+  .subscribe .main .form .btn{
+    width: 103px;
+  }
+  footer .main{
+    flex-direction: column;
+  }
+  footer .main .middle{
+    flex-direction: column;
+    gap:30px
+  }
+  .products .items{
+    width: 100%;
+  }
+  footer .main .left p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+footer .main .right .social{
+    justify-content: left;
+    margin-top: 20px;
+}
 }
