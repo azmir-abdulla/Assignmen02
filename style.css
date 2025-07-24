@@ -37,10 +37,12 @@ body {
 .menu ul li a {
   font-size: 20px;
   color: #8987a1;
+   font-family: "Inter", sans-serif;
 }
 .menu ul .active a {
   font-weight: 600;
   color: #252432;
+   font-family: "Inter", sans-serif;
 }
 .cart {
   display: flex;
@@ -48,6 +50,7 @@ body {
   font-size: 20px;
   color: #000000;
   align-items: center;
+      font-family: "Inter", sans-serif;
 }
 .cart img {
   width: 24px;
