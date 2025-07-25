@@ -122,6 +122,9 @@ footer .main .right .social{
 footer{
     overflow: hidden;
 }
+   footer .main .left{
+        width:100%;
+   }
 }
 
 
